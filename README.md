@@ -6,14 +6,14 @@ This is the backend service which runs along with truchain and tracks the networ
 
 
 ## Prerequisite
-* eth, geth or pyethapp
+* etrue
 * node
 * npm
 
 
 ## Installation on an Ubuntu EC2 Instance
 
-Fetch and run the build shell. This will install everything you need: latest truechain - CLI from develop branch  node.js, npm & pm2.
+Fetch and run the build shell. This will install everything you need: latest truechain - CLI from develop branch(etrue)  node.js, npm & pm2.
 
 ```bash
 bash <(curl https://raw.githubusercontent.com/cubedro/eth-net-intelligence-api/master/bin/build.sh)
