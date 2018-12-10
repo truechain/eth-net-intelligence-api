@@ -1,8 +1,8 @@
-Ethereum Network Intelligence API
+Truechain Network Intelligence API
 ============
 [![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
 
-This is the backend service which runs along with ethereum and tracks the network status, fetches information through JSON-RPC and connects through WebSockets to [eth-netstats](https://github.com/cubedro/eth-netstats) to feed information. For full install instructions please read the [wiki](https://github.com/ethereum/wiki/wiki/Network-Status).
+This is the backend service which runs along with truchain and tracks the network status, fetches information through JSON-RPC and connects through WebSockets to [true-netstats](https://github.com/truechain/true-netstats) to feed information.
 
 
 ## Prerequisite
@@ -13,7 +13,7 @@ This is the backend service which runs along with ethereum and tracks the networ
 
 ## Installation on an Ubuntu EC2 Instance
 
-Fetch and run the build shell. This will install everything you need: latest ethereum - CLI from develop branch (you can choose between eth or geth), node.js, npm & pm2.
+Fetch and run the build shell. This will install everything you need: latest truechain - CLI from develop branch  node.js, npm & pm2.
 
 ```bash
 bash <(curl https://raw.githubusercontent.com/cubedro/eth-net-intelligence-api/master/bin/build.sh)
@@ -59,7 +59,7 @@ To update the API client use the following command:
 ~/bin/www/bin/update.sh
 ```
 
-It will stop the current netstats client processes, automatically detect your ethereum implementation and version, update it to the latest develop build, update netstats client and reload the processes.
+It will stop the current netstats client processes, automatically detect your truechain implementation and version, update it to the latest develop build, update netstats client and reload the processes.
 
 [travis-image]: https://travis-ci.org/cubedro/eth-net-intelligence-api.svg
 [travis-url]: https://travis-ci.org/cubedro/eth-net-intelligence-api
